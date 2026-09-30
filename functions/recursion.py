@@ -1,9 +1,14 @@
 stopRecursion = False
+
 def sayHello():
     global stopRecursion
-    print("hello")
+    # This condition below is responsible for stopping the recursion
+    # Base case
     if stopRecursion == True:
         return
+    
+    # General Case
+    print("hello")
     stopRecursion = True
     sayHello()
 

@@ -35,7 +35,6 @@ nums2 = [192,1, 32, 32, 56]
 
 def calculateSum(numbers):
     sum = 0
-    return 100
     
     for num in numbers:
         sum += num
